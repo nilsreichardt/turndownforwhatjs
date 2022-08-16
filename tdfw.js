@@ -79,6 +79,7 @@
 	function onPlayerReady(event) {
 		console.log('ready')
 		event.target.playVideo();
+		event.target.setVolume(5);
 		requestAnimationFrame(checkTime)
 	}
 	
